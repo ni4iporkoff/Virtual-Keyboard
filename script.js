@@ -382,7 +382,3 @@ const getLocalStorage = () => {
   }
 };
 getLocalStorage();
-
-window.onblur = function() {
-    location.reload();
-};
